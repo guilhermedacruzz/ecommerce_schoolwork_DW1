@@ -76,8 +76,133 @@
             </nav>
         </header>
         @yield('content')
-        <footer>
-            <p>Footer &copy; 2022</p>
+        <footer class="bd-footer bg-light">
+            <div class="container-fluid py-3">
+                <div class="d-flex justify-content-start align-items-center flex-wrap px-4">
+                    <div class="d-flex flex-column me-5">
+                        <h6>Nos siga nas redes sociais: </h6>
+                        <ul class="list-unstyled d-flex flex-row">
+                            <li class="mb-2">
+                                <a class="btn btn-outline-dark me-4" href="#"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-dark me-4" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-dark me-4" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-dark me-4" href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column me-5">
+                        <h6>Métodos de Pagamento: </h6>
+                        <ul class="list-unstyled d-flex flex-row flex-wrap">
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-solid fa-credit-card"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-paypal"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-amex"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-apple-pay"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-jcb"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-diners-club"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h6>Outras Formas: </h6>
+                        <ul class="list-unstyled d-flex flex-row flex-wrap">
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-pix"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-solid fa-ticket"></i></a>
+                            </li>
+                            <li class="mb-2">
+                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-solid fa-people-arrows-left-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="text-dark-50">
+                <div class="row p-4 mt-5">
+                    <div class="col-lg-3 mb-3">
+                        <h1 class="mb-2">Lorem ipsum dolor sit.</h1>
+                        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus libero delectus magni, ipsum quibusdam rerum consequatur deserunt ad! Eligendi, ipsa.</p>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h6 class="h6 text-secondary py-2">
+                            <i class="fa-solid fa-angles-up"></i>
+                            Lorem
+                        </h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h6 class="h6 text-secondary py-2">
+                            <i class="fa-solid fa-angles-down"></i>
+                            Lorem
+                        </h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h6 class="h6 text-secondary py-2">
+                            <i class="fa-solid fa-angles-down"></i>
+                            Lorem
+                        </h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h6 class="h6 text-secondary py-2">
+                            <i class="fa-solid fa-angles-down"></i>
+                            Lorem
+                        </h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                            <li class="mb-2">lorem</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="text-dark-50">
+                <div class="d-flex flex-column p-4">
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <h6>&copy 2022 Copyright: <a class="text-dark" href="n">Lorem, ipsum dolor.</a></h6>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
