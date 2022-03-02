@@ -78,8 +78,8 @@
         @yield('content')
         <footer class="bd-footer bg-light">
             <div class="container-fluid py-3">
-                <div class="row">
-                    <div class="col-sm-6 col-lg-3 ps-4">
+                <div class="row px-4">
+                    <div class="col-sm-6 col-lg-3">
                         <h6>Nos siga nas redes sociais: </h6>
                         <ul class="list-unstyled d-flex flex-row">
                             <li class="mb-2">
@@ -97,7 +97,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-6 col-lg-6 ps-4">
+                    <div class="col-sm-6 col-lg-6">
                         <h6>Métodos de Pagamento: </h6>
                         <ul class="list-unstyled d-flex flex-row flex-wrap">
                             <li class="mb-2">
@@ -123,7 +123,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-6 col-lg-3 ps-4">
+                    <div class="col-sm-6 col-lg-3">
                         <h6>Outras Formas: </h6>
                         <ul class="list-unstyled d-flex flex-row flex-wrap">
                             <li class="mb-2">
