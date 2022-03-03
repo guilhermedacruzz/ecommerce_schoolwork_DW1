@@ -5,6 +5,10 @@
 @section('content')
 
 {{-- Comentário De Teste --}}
-<h1 class="bg-primary">Algum título!</h1>
+<main class="container-fluid p-0 bg-primary">
+    <div class="d-flex flex-column">
+        <img class="img-content" src="/img/game.png">
+    </div>
+</main>
 
 @endsection

@@ -19,7 +19,7 @@
         <script src="/js/scripts.js"></script>
     </head>
     <body>
-        <header class="navbar navbar-expand-lg navbar-dark bg-dark px-2 px-lg-5">
+        <header class="navbar navbar-expand-lg navbar-light bg-light px-2 px-lg-5">
             <nav class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -56,7 +56,7 @@
                         </li>
                     </ul>
 
-                    <hr class="d-lg-none text-white-50">
+                    <hr class="d-lg-none text-dark-50">
 
                     <ul class="navbar-nav flex-row ms-md-auto">
                         <li class="nav-item">
@@ -81,9 +81,8 @@
                         </li>
                     </ul>
 
-                    <button class="btn btn-dark my-2 my-lg-0 ms-lg-3 p-2">
+                    <button class="btn btn-outline-dark my-2 my-lg-0 ms-lg-3">
                         <i class="fas fa-shopping-bag fa-bounce"></i>
-                        <span>0</span>
                     </button>
                 </div>
             </nav>
