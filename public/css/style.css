@@ -1,3 +1,18 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
+.img-content {
+    max-width: 400px;
+}
+
+.cart-shopping {
+    position: relative;
+}
+
+.cart-shopping-number {
+    font-size: x-small;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
