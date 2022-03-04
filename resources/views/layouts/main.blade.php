@@ -19,7 +19,7 @@
         <script src="/js/scripts.js"></script>
     </head>
     <body>
-        <header class="navbar navbar-expand-lg navbar-light bg-light px-2 px-lg-5">
+        <header class="navbar navbar-expand-lg navbar-light bg-transparent px-2 px-lg-5">
             <nav class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -27,7 +27,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <a href="index.html" class="navbar-brand p-2 me-2">
+                <a href="#" class="navbar-brand p-2 me-2">
                     <img class="rounded-3 img-fluid" src="/img/logo.jpg ">
                 </a>
                 <div class="collapse navbar-collapse my-3 my-lg-0" id="navbarSupportedContent">
@@ -61,7 +61,7 @@
                     <ul class="navbar-nav flex-row ms-md-auto">
                         <li class="nav-item">
                             <a class="nav-link p-2" href="#">
-                                <i class="fa-solid fa-house"></i>
+                                <i class="fa-solid fa-gear"></i>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -71,7 +71,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link p-2" href="#">
-                                <i class="fa-solid fa-user-check"></i>
+                                <i class="fa-solid fa-clock"></i>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -81,8 +81,9 @@
                         </li>
                     </ul>
 
-                    <button class="btn btn-outline-dark my-2 my-lg-0 ms-lg-3">
-                        <i class="fas fa-shopping-bag fa-bounce"></i>
+                    <button class="btn btn-outline-dark my-2 my-lg-0 ms-lg-3 cart-shopping">
+                        <i class="fa-solid fa-cart-shopping fa-shake"></i>
+                        <span class="cart-shopping-number rounded-circle bg-primary px-1">0</span>
                     </button>
                 </div>
             </nav>
@@ -158,8 +159,8 @@
                     </div>
                     <div class="col-6 col-lg-2 mb-3">
                         <h6 class="h6 text-secondary py-2">
-                            <i class="fa-solid fa-angles-up"></i>
-                            Lorem
+                                <i class="fa-solid fa-angles-up"></i>
+                                Lorem
                         </h6>
                         <ul class="list-unstyled">
                             <li class="mb-2">lorem</li>
@@ -171,8 +172,8 @@
                     </div>
                     <div class="col-6 col-lg-2 mb-3">
                         <h6 class="h6 text-secondary py-2">
-                            <i class="fa-solid fa-angles-down"></i>
-                            Lorem
+                                <i class="fa-solid fa-angles-up"></i>
+                                Lorem
                         </h6>
                         <ul class="list-unstyled">
                             <li class="mb-2">lorem</li>
@@ -184,8 +185,8 @@
                     </div>
                     <div class="col-6 col-lg-2 mb-3">
                         <h6 class="h6 text-secondary py-2">
-                            <i class="fa-solid fa-angles-down"></i>
-                            Lorem
+                                <i class="fa-solid fa-angles-up"></i>
+                                Lorem
                         </h6>
                         <ul class="list-unstyled">
                             <li class="mb-2">lorem</li>
@@ -197,8 +198,8 @@
                     </div>
                     <div class="col-6 col-lg-2 mb-3">
                         <h6 class="h6 text-secondary py-2">
-                            <i class="fa-solid fa-angles-down"></i>
-                            Lorem
+                                <i class="fa-solid fa-angles-up"></i>
+                                Lorem
                         </h6>
                         <ul class="list-unstyled">
                             <li class="mb-2">lorem</li>
