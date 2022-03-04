@@ -10,7 +10,7 @@
     position: relative;
 }
 
-.cart-shopping-number {
+.cart-shopping .cart-shopping-number {
     font-size: x-small;
     position: absolute;
     top: 5%;

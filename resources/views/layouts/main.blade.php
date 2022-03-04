@@ -76,7 +76,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link p-2" href="#">
-                                <i class="fa-solid fa-user-plus"></i>
+                                <i class="fa-solid fa-user"></i>
                             </a>
                         </li>
                     </ul>
