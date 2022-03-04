@@ -2,15 +2,20 @@
     font-family: "Poppins", sans-serif;
 }
 
+#slide-menu .carousel-inner, #slide-menu .carousel-item {
+    height: 80vh;
+}
+
 .navbar-brand img{
     height: 70px;
 }
 
-.item-content {
+#slide-menu .item-content {
     max-width: 500px;
 }
 
-.item-img {
+#slide-menu .item-img {
+    object-fit: cover;
     max-width: 500px;
     width: 100%;
 }
