@@ -2,8 +2,17 @@
     font-family: "Poppins", sans-serif;
 }
 
-.img-content {
-    max-width: 400px;
+.navbar-brand img{
+    height: 70px;
+}
+
+.item-content {
+    max-width: 500px;
+}
+
+.item-img {
+    max-width: 500px;
+    width: 100%;
 }
 
 .cart-shopping {

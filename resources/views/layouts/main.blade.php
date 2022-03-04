@@ -28,11 +28,11 @@
                 </button>
 
                 <a href="#" class="navbar-brand p-2 me-2">
-                    <img class="rounded-3 img-fluid" src="/img/logo.jpg ">
+                    <img class="rounded-3 img-fluid" src="/img/logo.png ">
                 </a>
                 <div class="collapse navbar-collapse my-3 my-lg-0" id="navbarSupportedContent">
-                    <form class="d-flex p-2 w-100">
-                            <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
+                    <form class="d-flex p-2">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
 
@@ -58,7 +58,7 @@
 
                     <hr class="d-lg-none text-dark-50">
 
-                    <ul class="navbar-nav flex-row ms-md-auto">
+                    <ul class="navbar-nav flex-row  ms-md-auto">
                         <li class="nav-item">
                             <a class="nav-link p-2" href="#">
                                 <i class="fa-solid fa-gear"></i>
