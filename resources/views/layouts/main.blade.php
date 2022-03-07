@@ -19,23 +19,45 @@
         <script src="/js/scripts.js"></script>
     </head>
     <body>
-        <header class="navbar navbar-expand-lg navbar-light bg-transparent px-2 px-lg-5">
+
+        <div id="topbar" class="fixed-top d-flex align-items-center ">
+            <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+                <div class="contact-info d-flex align-items-center">
+                    <i class="fa-solid fa-envelope"></i><a href="#">info@example.com</a>
+                    <i class="fa-solid fa-phone"></i> +1 5589 55488 55
+                </div>
+                <div class="d-none d-md-block">
+                    <a href="">Lorem, ipsum.</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======= Header ======= -->
+        <header id="header" class="fixed-top navbar navbar-expand-lg navbar-light bg-transparent px-2 px-lg-5">
             <nav class="container-fluid">
+
+                <!-- Button Toggler -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Logo -->
                 <a href="#" class="navbar-brand p-2 me-2">
-                    <img class="rounded-3 img-fluid" src="/img/logo.jpg ">
+                    <img src="img/logo.png">
                 </a>
+
+                <!-- ======= Collapse ======= -->
                 <div class="collapse navbar-collapse my-3 my-lg-0" id="navbarSupportedContent">
-                    <form class="d-flex p-2 w-100">
-                            <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
+
+                    <!-- Search -->
+                    <form class="d-flex p-2">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
 
+                    <!-- ======= Itens URL ======= -->
                     <ul class="navbar-nav">
                         <li class="nav-item p-2">
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -54,11 +76,12 @@
                         <li class="nav-item p-2">
                             <a class="nav-link" href="/">Sobre</a>
                         </li>
-                    </ul>
+                    </ul> <!-- End Itens URL -->
 
                     <hr class="d-lg-none text-dark-50">
 
-                    <ul class="navbar-nav flex-row ms-md-auto">
+                    <!-- ======= Options ======= -->
+                    <ul class="navbar-nav flex-row  ms-md-auto">
                         <li class="nav-item">
                             <a class="nav-link p-2" href="#">
                                 <i class="fa-solid fa-gear"></i>
@@ -76,140 +99,25 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link p-2" href="#">
-                                <i class="fa-solid fa-user-plus"></i>
+                                <i class="fa-solid fa-user"></i>
                             </a>
                         </li>
-                    </ul>
+                    </ul> <!-- End Options -->
 
+                    <!-- Cart Shopping -->
                     <button class="btn btn-outline-dark my-2 my-lg-0 ms-lg-3 cart-shopping">
                         <i class="fa-solid fa-cart-shopping fa-shake"></i>
                         <span class="cart-shopping-number rounded-circle bg-primary px-1">0</span>
                     </button>
-                </div>
+
+                </div><!-- End Collapse -->
+
             </nav>
-        </header>
+        </header> <!-- End Header -->
+
         @yield('content')
+
         <footer class="bd-footer bg-light">
-            <div class="container-fluid py-3">
-                <div class="row px-4">
-                    <div class="col-sm-6 col-lg-3">
-                        <h6>Nos siga nas redes sociais: </h6>
-                        <ul class="list-unstyled d-flex flex-row">
-                            <li class="mb-2">
-                                <a class="btn btn-outline-dark me-4" href="#"><i
-                                        class="fa-brands fa-facebook"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-dark me-4" href="#"><i class="fa-brands fa-twitter"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-dark me-4" href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-dark me-4" href="#"><i class="fa-brands fa-youtube"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-lg-6">
-                        <h6>Métodos de Pagamento: </h6>
-                        <ul class="list-unstyled d-flex flex-row flex-wrap">
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-solid fa-credit-card"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-paypal"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-amex"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-apple-pay"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-jcb"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-cc-diners-club"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <h6>Outras Formas: </h6>
-                        <ul class="list-unstyled d-flex flex-row flex-wrap">
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-brands fa-pix"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-solid fa-ticket"></i></a>
-                            </li>
-                            <li class="mb-2">
-                                <a class="btn btn-outline-primary me-4" href="#"><i class="fa-solid fa-people-arrows-left-right"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <hr class="text-dark-50">
-                <div class="row p-4 mt-5">
-                    <div class="col-lg-3 mb-3">
-                        <h1 class="mb-2">Lorem ipsum dolor sit.</h1>
-                        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus libero delectus magni, ipsum quibusdam rerum consequatur deserunt ad! Eligendi, ipsa.</p>
-                    </div>
-                    <div class="col-6 col-lg-2 mb-3">
-                        <h6 class="h6 text-secondary py-2">
-                                <i class="fa-solid fa-angles-up"></i>
-                                Lorem
-                        </h6>
-                        <ul class="list-unstyled">
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-lg-2 mb-3">
-                        <h6 class="h6 text-secondary py-2">
-                                <i class="fa-solid fa-angles-up"></i>
-                                Lorem
-                        </h6>
-                        <ul class="list-unstyled">
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-lg-2 mb-3">
-                        <h6 class="h6 text-secondary py-2">
-                                <i class="fa-solid fa-angles-up"></i>
-                                Lorem
-                        </h6>
-                        <ul class="list-unstyled">
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-lg-2 mb-3">
-                        <h6 class="h6 text-secondary py-2">
-                                <i class="fa-solid fa-angles-up"></i>
-                                Lorem
-                        </h6>
-                        <ul class="list-unstyled">
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                            <li class="mb-2">lorem</li>
-                        </ul>
-                    </div>
-                </div>
                 <hr class="text-dark-50">
                 <div class="d-flex flex-column p-4">
                     <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>

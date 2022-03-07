@@ -1,16 +1,34 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 * {
     font-family: "Poppins", sans-serif;
 }
 
-.img-content {
-    max-width: 400px;
+/*--------------------------------------------------------------
+# Topbar
+--------------------------------------------------------------*/
+
+#topbar {
+  height: 60px;
 }
 
-.cart-shopping {
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  top: 60px;
+}
+
+#header img {
+  max-height: 40px;
+}
+
+#header .cart-shopping {
     position: relative;
 }
 
-.cart-shopping-number {
+#header .cart-shopping .cart-shopping-number {
     font-size: x-small;
     position: absolute;
     top: 5%;
