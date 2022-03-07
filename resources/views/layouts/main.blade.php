@@ -20,6 +20,7 @@
     </head>
     <body>
 
+        <!-- ======= Topbar ======= -->
         <div id="topbar" class="fixed-top d-flex align-items-center ">
             <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
                 <div class="contact-info d-flex align-items-center">
@@ -30,10 +31,10 @@
                     <a href="">Lorem, ipsum.</a>
                 </div>
             </div>
-        </div>
+        </div> <!-- End Topbar -->
 
         <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top navbar navbar-expand-lg navbar-light bg-transparent px-2 px-lg-5">
+        <header id="header" class="fixed-top navbar navbar-expand-lg navbar-light px-2 px-lg-5">
             <nav class="container-fluid">
 
                 <!-- Button Toggler -->
