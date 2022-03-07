@@ -1,12 +1,23 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 * {
     font-family: "Poppins", sans-serif;
 }
 
-.cart-shopping {
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header img {
+  max-height: 40px;
+}
+
+#header .cart-shopping {
     position: relative;
 }
 
-.cart-shopping .cart-shopping-number {
+#header .cart-shopping .cart-shopping-number {
     font-size: x-small;
     position: absolute;
     top: 5%;

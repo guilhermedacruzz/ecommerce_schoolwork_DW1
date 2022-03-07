@@ -33,7 +33,7 @@
 
                 <!-- Logo -->
                 <a href="#" class="navbar-brand p-2 me-2">
-                    Lorem
+                    <img src="img/logo.png">
                 </a>
 
                 <!-- ======= Collapse ======= -->
@@ -104,7 +104,6 @@
         </header> <!-- End Header -->
 
         @yield('content')
-
 
         <footer class="bd-footer bg-light">
                 <hr class="text-dark-50">
