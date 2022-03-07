@@ -20,8 +20,20 @@
     </head>
     <body>
 
+        <div id="topbar" class="fixed-top d-flex align-items-center ">
+            <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+                <div class="contact-info d-flex align-items-center">
+                    <i class="fa-solid fa-envelope"></i><a href="#">info@example.com</a>
+                    <i class="fa-solid fa-phone"></i> +1 5589 55488 55
+                </div>
+                <div class="d-none d-md-block">
+                    <a href="">Lorem, ipsum.</a>
+                </div>
+            </div>
+        </div>
+
         <!-- ======= Header ======= -->
-        <header id="header" class="navbar navbar-expand-lg navbar-light bg-transparent px-2 px-lg-5">
+        <header id="header" class="fixed-top navbar navbar-expand-lg navbar-light bg-transparent px-2 px-lg-5">
             <nav class="container-fluid">
 
                 <!-- Button Toggler -->
