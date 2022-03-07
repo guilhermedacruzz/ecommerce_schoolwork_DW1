@@ -2,24 +2,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-#slide-menu .carousel-inner, #slide-menu .carousel-item {
-    height: 80vh;
-}
-
-.navbar-brand img{
-    height: 70px;
-}
-
-#slide-menu .item-content {
-    max-width: 500px;
-}
-
-#slide-menu .item-img {
-    object-fit: cover;
-    max-width: 500px;
-    width: 100%;
-}
-
 .cart-shopping {
     position: relative;
 }
