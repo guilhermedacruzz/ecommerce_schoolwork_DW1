@@ -19,23 +19,33 @@
         <script src="/js/scripts.js"></script>
     </head>
     <body>
-        <header class="navbar navbar-expand-lg navbar-light bg-transparent px-2 px-lg-5">
+
+        <!-- ======= Header ======= -->
+        <header id="header" class="navbar navbar-expand-lg navbar-light bg-transparent px-2 px-lg-5">
             <nav class="container-fluid">
+
+                <!-- Button Toggler -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Logo -->
                 <a href="#" class="navbar-brand p-2 me-2">
                     Lorem
                 </a>
+
+                <!-- ======= Collapse ======= -->
                 <div class="collapse navbar-collapse my-3 my-lg-0" id="navbarSupportedContent">
+
+                    <!-- Search -->
                     <form class="d-flex p-2">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
 
+                    <!-- ======= Itens URL ======= -->
                     <ul class="navbar-nav">
                         <li class="nav-item p-2">
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -54,10 +64,11 @@
                         <li class="nav-item p-2">
                             <a class="nav-link" href="/">Sobre</a>
                         </li>
-                    </ul>
+                    </ul> <!-- End Itens URL -->
 
                     <hr class="d-lg-none text-dark-50">
 
+                    <!-- ======= Options ======= -->
                     <ul class="navbar-nav flex-row  ms-md-auto">
                         <li class="nav-item">
                             <a class="nav-link p-2" href="#">
@@ -79,16 +90,22 @@
                                 <i class="fa-solid fa-user"></i>
                             </a>
                         </li>
-                    </ul>
+                    </ul> <!-- End Options -->
 
+                    <!-- Cart Shopping -->
                     <button class="btn btn-outline-dark my-2 my-lg-0 ms-lg-3 cart-shopping">
                         <i class="fa-solid fa-cart-shopping fa-shake"></i>
                         <span class="cart-shopping-number rounded-circle bg-primary px-1">0</span>
                     </button>
-                </div>
+
+                </div><!-- End Collapse -->
+
             </nav>
-        </header>
+        </header> <!-- End Header -->
+
         @yield('content')
+
+
         <footer class="bd-footer bg-light">
                 <hr class="text-dark-50">
                 <div class="d-flex flex-column p-4">
