@@ -125,6 +125,9 @@
             </div>
         </footer>
 
+        <!-- ======= PreLoader ======= -->
+        <div id="preloader"></div>
+
         <!-- JS Scripts -->
         <script src="/js/scripts.js"></script>
     </body>
