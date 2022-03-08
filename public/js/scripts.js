@@ -2,7 +2,9 @@
 (function() {
     "use strict";
 
-    // Scroll Header
+    /*--------------------------------------------------------------
+    # Deixando a relação Topbar-Header dinâmica
+    --------------------------------------------------------------*/
     let selectHeader = document.getElementById('header');
     let selectTopbar = document.getElementById('topbar');
 
@@ -26,6 +28,9 @@
         document.addEventListener('scroll', headerScrolled)
     }
 
+    /*--------------------------------------------------------------
+    # Removendo o PreLoader
+    --------------------------------------------------------------*/
     let preloader = document.getElementById('preloader');
     if (preloader) {
         window.addEventListener('load', () => {
