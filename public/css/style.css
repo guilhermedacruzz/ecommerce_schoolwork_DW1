@@ -105,3 +105,20 @@
     top: 5%;
     right: 5%;
 }
+
+
+/*--------------------------------------------------------------
+# Slide-Menu
+--------------------------------------------------------------*/
+#slide-menu .carousel-inner, #slide-menu .carousel-item {
+    height: 90vh;
+}
+
+#slide-menu .carousel-inner, #slide-menu .carousel-item img{ 
+    height: 100%;   
+    object-fit: cover;
+}
+
+#slide-menu .carousel-caption {
+    bottom: 10%;
+}
