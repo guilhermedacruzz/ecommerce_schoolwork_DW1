@@ -62,23 +62,27 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div> <!-- End Carousel -->
-
-
  
     <div class="d-flex flex-column justify-content-center align-items-center p-5" data-aos="fade-up">
         <h1 class="pb-5">Lorem ipsum dolor sit amet.</h1>
 
-        <ul class="list-group flex-row ">
-            <li class="list-group-item">
+        <ul class="list-group list-unstyled flex-row">
+            <li>
                 <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
             </li>
-            <li class="list-group-item">
+            <li>
                 <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
             </li>
-            <li class="list-group-item">
+            <li>
                 <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
             </li>
-            <li class="list-group-item">
+            <li>
+                <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
+            </li>
+            <li>
+                <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
+            </li>
+            <li>
                 <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
             </li>
         </ul>
