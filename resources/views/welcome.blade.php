@@ -63,6 +63,27 @@
         </button>
     </div> <!-- End Carousel -->
 
+
+ 
+    <div class="d-flex flex-column justify-content-center align-items-center p-5" data-aos="fade-up">
+        <h1 class="pb-5">Lorem ipsum dolor sit amet.</h1>
+
+        <ul class="list-group flex-row ">
+            <li class="list-group-item">
+                <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a class="display-1 p-2"><i class="fa-solid fa-clock"></i></a>
+            </li>
+        </ul>
+    </div>
+
     <!-- ======= Carousel Products ======= -->
     <div id="slide-products" class="carousel slide bg-primary" data-bs-ride="carousel">
 
