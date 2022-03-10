@@ -48,42 +48,116 @@
         </button>
     </div>
 
-    <div class="container-sm products"> 
-        <div class="row" style="background-color: red;">
-            <div class="col-sm-6 col-md-4 col-lg-3 p-3" data-aos="fade-up">
-                <img class="img-thumbnail" src="/img/mouse.png">
-                <div class="border-5 border-start ps-2 my-2">
-                    <h6>Lorem ipsum dolor sit.</h6>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                </div>
-                <h6 class="ps-4"><strong>4.56</strong></h6>
+    <div id="slide-products" class="carousel slide bg-primary" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slide-products" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slide-products" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slide-products" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-                <img class="img-thumbnail" src="/img/mouse.png">
-                <div class="border-5 border-start ps-2 my-2">
-                    <h6>Lorem ipsum dolor sit.</h6>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container-sm"> 
+                    <div class="row p-5">
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
                 </div>
-                <h6 class="ps-4"><strong>4.56</strong></h6>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-                <img class="img-thumbnail" src="/img/mouse.png">
-                <div class="border-5 border-start ps-2 my-2">
-                    <h6>Lorem ipsum dolor sit.</h6>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+
+            <div class="carousel-item">
+                <div class="container-sm"> 
+                    <div class="row p-5">
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
                 </div>
-                <h6 class="ps-4"><strong>4.56</strong></h6>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-                <img class="img-thumbnail" src="/img/mouse.png">
-                <div class="border-5 border-start ps-2 my-2">
-                    <h6>Lorem ipsum dolor sit.</h6>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+
+            <div class="carousel-item">
+                <div class="container-sm"> 
+                    <div class="row p-5">
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                            <img class="img-thumbnail" src="/img/mouse.png">
+                            <h5 class="py-2">Lorem ipsum dolor sit.</h5>
+                            <h6><strong>Por: <span class="h4">$4.56</span></strong></h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
                 </div>
-                <h6 class="ps-4"><strong>4.56</strong></h6>
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slide-products" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slide-products" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+
 </main>
 
 @endsection
