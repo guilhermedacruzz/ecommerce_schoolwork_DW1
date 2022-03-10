@@ -47,6 +47,43 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
+    <div class="container-sm products"> 
+        <div class="row" style="background-color: red;">
+            <div class="col-sm-6 col-md-4 col-lg-3 p-3" data-aos="fade-up">
+                <img class="img-thumbnail" src="/img/mouse.png">
+                <div class="border-5 border-start ps-2 my-2">
+                    <h6>Lorem ipsum dolor sit.</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+                <h6 class="ps-4"><strong>4.56</strong></h6>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <img class="img-thumbnail" src="/img/mouse.png">
+                <div class="border-5 border-start ps-2 my-2">
+                    <h6>Lorem ipsum dolor sit.</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+                <h6 class="ps-4"><strong>4.56</strong></h6>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                <img class="img-thumbnail" src="/img/mouse.png">
+                <div class="border-5 border-start ps-2 my-2">
+                    <h6>Lorem ipsum dolor sit.</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+                <h6 class="ps-4"><strong>4.56</strong></h6>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <img class="img-thumbnail" src="/img/mouse.png">
+                <div class="border-5 border-start ps-2 my-2">
+                    <h6>Lorem ipsum dolor sit.</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+                <h6 class="ps-4"><strong>4.56</strong></h6>
+            </div>
+        </div>
+    </div>
 </main>
 
 @endsection

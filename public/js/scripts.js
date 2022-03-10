@@ -2,6 +2,8 @@
 (function() {
     "use strict";
 
+    AOS.init();
+
     /*--------------------------------------------------------------
     # Deixando a relação Topbar-Header dinâmica
     --------------------------------------------------------------*/
@@ -10,7 +12,6 @@
 
     console.log(selectHeader)
     if (selectHeader) {
-        console.log("sds")
         const headerScrolled = () => {
             if (window.scrollY > 100) {
                 selectHeader.classList.add('header-scrolled')
