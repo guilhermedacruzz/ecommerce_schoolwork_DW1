@@ -4,15 +4,22 @@
 
 @section('content')
 
-{{-- Comentário De Teste --}}
+<!-- ======= Main ======= -->
 <main class="container-fluid p-0">
+
+    <!-- ======= Carousel Init ======= -->
     <div id="slide-menu" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Inicadores Laterais -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#slide-menu" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+        </div>
+
         <div class="carousel-inner">
+
+            <!-- Slide 1 -->
             <div class="carousel-item active">
                 <img src="/img/back.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
@@ -21,6 +28,8 @@
                     <a href="#" class="btn btn-dark animate__animated animate__fadeInUp">Lorem, ipsum.</a>
                 </div>
             </div>
+
+            <!-- Slide 2 -->
             <div class="carousel-item">
                 <img src="/img/back.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
@@ -29,6 +38,8 @@
                     <a href="#" class="btn btn-dark animate__animated animate__fadeInUp">Lorem, ipsum.</a>
                 </div>
             </div>
+
+            <!-- Slide 3 -->
             <div class="carousel-item">
                 <img src="/img/back.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
@@ -38,23 +49,33 @@
                 </div>
             </div>
         </div>
+
+        <!-- Button Prev -->
         <button class="carousel-control-prev" type="button" data-bs-target="#slide-menu" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
+
+        <!-- Button Next -->
         <button class="carousel-control-next" type="button" data-bs-target="#slide-menu" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div> <!-- End Carousel -->
 
+    <!-- ======= Carousel Products ======= -->
     <div id="slide-products" class="carousel slide bg-primary" data-bs-ride="carousel">
+
+        <!-- Inicadores Laterais -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#slide-products" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#slide-products" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#slide-products" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+        </div>
+
         <div class="carousel-inner">
+
+            <!-- Slide 1 -->
             <div class="carousel-item active">
                 <div class="container-sm"> 
                     <div class="row p-5">
@@ -85,7 +106,8 @@
                     </div>
                 </div>
             </div>
-
+            
+            <!-- Slide 2 -->
             <div class="carousel-item">
                 <div class="container-sm"> 
                     <div class="row p-5">
@@ -117,6 +139,7 @@
                 </div>
             </div>
 
+            <!-- Slide 3 -->
             <div class="carousel-item">
                 <div class="container-sm"> 
                     <div class="row p-5">
@@ -148,16 +171,20 @@
                 </div>
             </div>
         </div>
+
+        <!-- Button Prev -->
         <button class="carousel-control-prev" type="button" data-bs-target="#slide-products" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
+
+        <!-- Button Next -->
         <button class="carousel-control-next" type="button" data-bs-target="#slide-products" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div> <!-- End Carousel -->
 
-</main>
+</main> <!-- End Main -->
 
 @endsection
