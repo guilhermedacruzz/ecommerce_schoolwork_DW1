@@ -80,7 +80,7 @@
 # Header
 --------------------------------------------------------------*/
 #header {
-	background-color: blue;
+	background-color: rgba(0, 0, 0, 0.1);
   	top: 60px;
     transition: all 0.5s;
     z-index: 997;

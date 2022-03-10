@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
         <!-- Icons FontAwesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- CSS Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -21,12 +23,12 @@
         <!-- ======= Topbar ======= -->
         <div id="topbar" class="fixed-top d-flex align-items-center ">
             <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-                <div class="contact-info d-flex align-items-center">
+                <div class="d-flex align-items-center">
                     <i class="fa-solid fa-envelope"></i><a href="#">info@example.com</a>
                     <i class="fa-solid fa-phone"></i> +1 5589 55488 55
                 </div>
                 <div class="d-none d-md-block">
-                    <a href="">Lorem, ipsum.</a>
+                    <a class="animate__animated animate__fadeInDown" href="">Lorem, ipsum.</a>
                 </div>
             </div>
         </div> <!-- End Topbar -->

@@ -7,7 +7,7 @@
 {{-- Comentário De Teste --}}
 <main class="container-fluid p-0">
     @for($i = 0; $i < 20; $i++)
-        <h1>Teste</h1>
+        <h1 class="animate__animated animate__fadeInDown">Teste</h1>
     @endfor
 </main>
 
