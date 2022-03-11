@@ -69,10 +69,17 @@
                                 Produtos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Cadernos</a></li>
+                                <li><a class="dropdown-item" href="#">Canetas exclusivas</a></li>
+                                <li><a class="dropdown-item" href="#">Escravos Nigerianos</a></li>
+                                <li><a class="dropdown-item" href="#">Escritório</a></li>
+                                <li><a class="dropdown-item" href="#">Informática</a></li>
+                                <li><a class="dropdown-item" href="#">Maconha</a></li>
+                                <li><a class="dropdown-item" href="#">Mochilas</a></li>
+                                <li><a class="dropdown-item" href="#">Organizadores</a></li>
+                                <li><a class="dropdown-item" href="#">Pintura e Artesanato</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Outros</a></li>
                             </ul>
                         </li>
                         <li class="nav-item p-2">
