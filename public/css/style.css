@@ -6,20 +6,89 @@
 }
 
 /*--------------------------------------------------------------
+# Pre Loader
+--------------------------------------------------------------*/
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #0880e8;
+    border-top-color: #bfe0fd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/*--------------------------------------------------------------
+# Desativando o delay nos dispositivos mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
+
+/*--------------------------------------------------------------
 # Topbar
 --------------------------------------------------------------*/
 
 #topbar {
 	background-color: red;
   	height: 60px;
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: 996;
+}
+
+#topbar.topbar-scrolled {
+    top: -60px;
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-	background-color: blue;
+	background-color: rgba(0, 0, 0, 0.1);
   	top: 60px;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+#header.header-scrolled {
+    background: green;
+    top: 0;
 }
 
 #header img {
@@ -35,4 +104,21 @@
     position: absolute;
     top: 5%;
     right: 5%;
+}
+
+
+/*--------------------------------------------------------------
+# Slide-Menu
+--------------------------------------------------------------*/
+#slide-menu .carousel-inner, #slide-menu .carousel-item {
+    height: 100vh;
+}
+
+#slide-menu .carousel-inner, #slide-menu .carousel-item img{ 
+    height: 100%;   
+    object-fit: cover;
+}
+
+#slide-menu .carousel-caption {
+    bottom: 10%;
 }
